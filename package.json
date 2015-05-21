@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-ng-annotate": "^0.5.3",
+    "gulp-ng-html2js": "^0.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-uglify": "^1.2.0"
+  }
+}

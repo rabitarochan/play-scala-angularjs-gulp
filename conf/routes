@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# webjars
+GET        /webjars/*file        controllers.WebJarAssets.at(file)
+
+# Map static resources from the /public folder to the /assets URL path
+GET        /assets/*file         controllers.Assets.at(path="/public", file)
+
+# Main routing
+GET        /                     controllers.Application.index()
+GET        /*path                controllers.Application.indexWithPath(path: String)
